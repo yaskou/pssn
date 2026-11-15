@@ -6,3 +6,6 @@ allowBuilds:
 permissions:
   drizzle-kit:
     skills: true
+
+skills:
+  dirs: []
