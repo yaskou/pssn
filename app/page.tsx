@@ -53,7 +53,7 @@ export default function Home() {
   }
 
   return (
-    <main className="w-full h-svh flex flex-col items-center justify-center">
+    <main className="w-full h-svh flex flex-col items-center justify-center px-4">
       <form className="w-full max-w-md" action={judgeDoubtfulSentence}>
         <FieldSet>
           <FieldLegend>PSSN</FieldLegend>
