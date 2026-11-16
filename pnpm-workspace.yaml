@@ -1,5 +1,5 @@
 allowBuilds:
-  '@openrouter/sdk': true
+  "@openrouter/sdk": true
   esbuild: true
   sharp: false
   unrs-resolver: false

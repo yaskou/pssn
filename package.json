@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "fmt": "pnpm exec prettier ./app ./db --write",
+    "fmt": "pnpm exec prettier . --write",
     "fix": "pnpm lint && pnpm fmt"
   },
   "dependencies": {
