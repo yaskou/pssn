@@ -6,7 +6,7 @@ export const pssnsTable = sqliteTable("pssns", {
   id: text("id")
     .primaryKey()
     .$defaultFn(() => v4()),
-  body: text("name").notNull(),
+  body: text("body").notNull(),
   score: real("score").notNull(),
   createdAt: text("created_at")
     .default(sql`(CURRENT_TIMESTAMP)`)
