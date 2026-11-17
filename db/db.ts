@@ -4,7 +4,7 @@ import * as schema from "@/db/schema";
 import { defineRelations } from "drizzle-orm";
 
 const client = createClient({
-  url: process.env.TURSO_DATABASE_URL!,
+  url: process.env.TURSO_DATABASE_URL,
   authToken: process.env.TURSO_AUTH_TOKEN,
 });
 const relations = defineRelations(schema);

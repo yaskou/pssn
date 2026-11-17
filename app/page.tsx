@@ -24,7 +24,7 @@ export default function Home() {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        model: "perplexity/pplx-decider-flash-v1.3:free",
+        model: process.env.OPENROUTER_MODEL,
         state: doubtfulSentence,
         questions: {
           unreality: {
