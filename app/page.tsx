@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button";
+import { SubmitButton } from "@/components/SubmitButton";
 import {
   Field,
   FieldDescription,
@@ -68,7 +68,7 @@ export default function Home() {
             />
           </Field>
           <Field>
-            <Button type="submit">判定する</Button>
+            <SubmitButton>判定する</SubmitButton>
           </Field>
         </FieldSet>
       </form>
